@@ -117,10 +117,12 @@ public class EchartsController {
     series1.setData(data1);
 
 
-    seriesList.add(series1);
+//    seriesList.add(series1);
 
 
     Bar series2=new Bar();
+    series2.setType(SeriesType.bar);
+
 //    series: [
 
 //    {
